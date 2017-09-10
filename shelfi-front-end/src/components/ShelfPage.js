@@ -15,7 +15,6 @@ class ShelfPage extends Component {
   componentDidMount() {
     getShelf(this.props.match.params.id)
       .then((bins) => {
-        console.log(bins);
         this.setState({
           bins
         });
@@ -44,6 +43,11 @@ class ShelfPage extends Component {
         </div>
         <div className="shelfs">
           {BINS}
+          <Link to={`/create/${id}`} className="shelf-button">
+            <h2>
+              Create Bin
+            </h2>
+          </Link>
         </div>
       </div>
     );
