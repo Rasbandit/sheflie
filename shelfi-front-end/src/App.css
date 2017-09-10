@@ -1,0 +1,53 @@
+.banner {
+  background: #ab2a19;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner div {
+  width: 900px;
+  height: 100%;
+  background: pink;
+  display: flex;
+  align-items: center;
+}
+
+.banner img {
+  margin-left: 20px;
+}
+
+.banner h1 {
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.shelfs {
+  width: 900px;
+  margin: auto;
+}
+
+.shelf-button {
+  margin-top: 15px;
+  width: 900px;
+  height: 80px;
+  background-color: #ab2a19;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shelf-button h2 {
+  color: white;
+  background-color: #ab2a19;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+ 
+a:hover {
+  color: gray;
+}
